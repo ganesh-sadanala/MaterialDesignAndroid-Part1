@@ -2,7 +2,7 @@
 <resources>
     <style name="AppMaterialTheme" parent="SuperMaterialTheme">
         <!--Customize theme for lollipop and above versions -->
-
+        
     </style>
 
 </resources>

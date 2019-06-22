@@ -6,12 +6,16 @@
     </style>
     
     <!-- Base application theme. -->
-    <style name="SuperMaterialTheme" parent="Theme.AppCompat">
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light">
         <!-- This is the parent theme for all devices since Theme.AppCompact applicable for >=API7 -->
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">#CE93D8</item>
+        <item name="colorControlActivated">#4DB6AC</item>
+        <item name="colorControlHighlight">#9CCC65</item>
+        <item name="colorControlNormal">#FF8A65</item>
     </style>
 
 </resources>
