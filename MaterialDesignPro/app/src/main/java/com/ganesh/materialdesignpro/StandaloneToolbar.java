@@ -3,6 +3,7 @@ package com.ganesh.materialdesignpro;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.os.Build;
 import android.os.Bundle;
 
 public class StandaloneToolbar extends AppCompatActivity {
@@ -15,6 +16,11 @@ public class StandaloneToolbar extends AppCompatActivity {
         toolbar=findViewById(R.id.toolbar);
         toolbar.setTitle("StandAloneToolbar!");
         toolbar.setSubtitle("By Ganesh");
-        toolbar.setNavigationIcon(R.drawable.ic_navigation_back);
+        //toolbar.setNavigationIcon(R.drawable.ic_navigation_back);
+        if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP)
+        {
+           toolbar.setElevation(5f);
+        }
+
     }
 }
