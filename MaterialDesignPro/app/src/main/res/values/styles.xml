@@ -6,7 +6,7 @@
     </style>
     
     <!-- Base application theme. -->
-    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light">
+    <style name="SuperMaterialTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- This is the parent theme for all devices since Theme.AppCompact applicable for >=API7 -->
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
