@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ShowToolbarAsActionBar(View view) {
+        Intent intent=new Intent(this,ActionBarToolBar.class);
+        startActivity(intent);
     }
 
     public void ShowContextualMenu(View view) {
