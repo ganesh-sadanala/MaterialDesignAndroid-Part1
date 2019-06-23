@@ -5,6 +5,7 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.view.MenuItem;
 
 public class StandaloneToolbar extends AppCompatActivity {
 
@@ -19,8 +20,17 @@ public class StandaloneToolbar extends AppCompatActivity {
         //toolbar.setNavigationIcon(R.drawable.ic_navigation_back);
         if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP)
         {
-           toolbar.setElevation(5f);
+           toolbar.setElevation(10f);
         }
+       toolbar.inflateMenu(R.menu.menu_main);
+       toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
+           @Override
+           public boolean onMenuItemClick(MenuItem item) {
 
+
+               
+               return true;
+           }
+       });
     }
 }
