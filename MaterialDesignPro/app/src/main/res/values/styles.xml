@@ -13,9 +13,21 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorButtonNormal">#CE93D8</item>
-        <item name="colorControlActivated">#4DB6AC</item>
+        <item name="colorControlActivated">#80CBC4</item>
         <item name="colorControlHighlight">#9CCC65</item>
         <item name="colorControlNormal">#FF8A65</item>
+    </style>
+
+    <style name="MyToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
+         <!-- text color of toolbar and text in a pop up menu -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- color of overflow menu and icons in navigation drawer and toolbar -->
+        <item name="android:textColorSecondary">#FFFFFF</item>
+    </style>
+    <style name="MyPopUpMenu" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="android:background">#E8F5E9</item>
+        <item name="android:textColorPrimary">#455A64</item>
     </style>
 
 </resources>

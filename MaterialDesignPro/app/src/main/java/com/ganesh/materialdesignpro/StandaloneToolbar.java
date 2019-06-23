@@ -28,7 +28,7 @@ public class StandaloneToolbar extends AppCompatActivity {
            public boolean onMenuItemClick(MenuItem item) {
 
 
-               
+
                return true;
            }
        });
