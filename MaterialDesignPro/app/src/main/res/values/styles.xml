@@ -18,6 +18,7 @@
         <item name="colorControlNormal">@color/colorControlNormal</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="actionModeStyle">@style/MyActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/myclosebutton</item>
     </style>
 
     <style name="MyToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
@@ -25,6 +26,9 @@
         <item name="android:textColorPrimary">@android:color/white</item>
         <!-- color of overflow menu and icons in navigation drawer and toolbar -->
         <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+    <style name="myclosebutton" parent="Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:tint">@android:color/white</item> <!-- whatever color -->
     </style>
     <style name="MyPopUpMenu" parent="ThemeOverlay.AppCompat.Light">
 
