@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     
     <style name="AppMaterialTheme" parent="SuperMaterialTheme">
         <!-- Customize your theme for pre-lollipop devices -->
@@ -12,22 +12,31 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorButtonNormal">#CE93D8</item>
-        <item name="colorControlActivated">#80CBC4</item>
-        <item name="colorControlHighlight">#9CCC65</item>
-        <item name="colorControlNormal">#FF8A65</item>
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+        <item name="colorControlActivated">@color/colorControlActivated</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/MyActionMode</item>
     </style>
 
     <style name="MyToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
          <!-- text color of toolbar and text in a pop up menu -->
-        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
         <!-- color of overflow menu and icons in navigation drawer and toolbar -->
-        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
     </style>
     <style name="MyPopUpMenu" parent="ThemeOverlay.AppCompat.Light">
 
-        <item name="android:background">#E8F5E9</item>
-        <item name="android:textColorPrimary">#455A64</item>
+        <item name="background">@color/background</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
     </style>
+    <style name="MyActionMode" parent="@style/Widget.AppCompat.ActionMode">
+         <item name="background">@color/contextualBackground</item>
+        <item name="titleTextStyle">@style/MyTitleText</item>
 
+    </style>
+    <style name="MyTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/textStyle</item>
+    </style>
 </resources>

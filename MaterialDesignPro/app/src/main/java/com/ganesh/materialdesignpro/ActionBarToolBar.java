@@ -29,6 +29,6 @@ public class ActionBarToolBar extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        return true;
+        return super.onOptionsItemSelected(item);
     }
 }

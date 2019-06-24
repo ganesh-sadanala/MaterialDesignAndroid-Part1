@@ -34,5 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ShowContextualMenu(View view) {
+        Intent intent=new Intent(this,ContextualMenu.class);
+        startActivity(intent);
     }
 }

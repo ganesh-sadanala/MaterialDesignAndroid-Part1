@@ -3,4 +3,13 @@
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#FFE082</color>
+    <color name="colorButtonNormal">#CE93D8</color>
+    <color name="colorControlActivated">#80CBC4</color>
+    <color name="colorControlHighlight">#9CCC65</color>
+    <color name="colorControlNormal">#FF8A65</color>
+    <color name="background">#E8F5E9</color>
+    <color name="textColorPrimary">#455A64</color>
+    <color name="contextualBackground">#795548</color>
+    <color name="contextualStatusBarColor">#5D4037</color>
+    <color name="textStyle">#FFFF8A</color>
 </resources>
